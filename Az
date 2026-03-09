@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>my portfolio </title>
+    <link rel="stylesheet"
+      href="style.css">
+  </head>
+  <body>
+    <header>
+      <H1> Arjun Mishra </H1>
+      <p> future skilled web developer </p>
+    </header>
+    <nav class="navbar">
+      <H2 class="logo">Arjun</H2>
+      <div class="nav-link">
+      <a href="#">home</a>
+      <a href="#about">about</a>
+      <a href="#contact">contact</a>
+      <a href="#project">project</a>
+      </div>
+    </nav>
+    
+    <p id="message"></p>
+    <button onclick="showMessage()">
+    press me  
+    </button>
+      
+    <section id="project">
+      <H1>My project </H1>
+    </section>
+    <div class="card">
+     <H1>website1</H1> 
+      <p>My first website project </p>
+    </div>
+    <div class="card">
+      <H1>website2</H1>
+      <p>my second website project </p>
+    </div>
+    <section id="about">
+    <H2> About me </H2>
+     <p> my goal is to become<i> <b>web developer</b></i> </p>
+    </section>
+    <section id="contact">
+      <H2>Contact us </H2>
+    </section
+    <footer>©2026 Arjun Mishra </footer>
+    <script>
+      function showMessage(){
+        document.getElementById("message").innerText="welcome to Arjun's website!";
+      }
+    </script>
+  </body>
+</html>
